@@ -20,8 +20,15 @@
       
       <tr mdbTableCol *ngFor = "let row of rows">
 
-      <td *ngFor ="let column of columnsToDisplay">
-        {{row[column]}}
+      <td  *ngFor ="let column of columnsToDisplay;let idx=index">
+        
+        <span *ngIf="idx == 0">
+          <a href="">{{row[column]}}</a>
+        </span>
+        <span *ngIf="idx != 0">
+          {{row[column]}}
+        </span>
+       
       </td>
 
       </tr>
