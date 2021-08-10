@@ -1,0 +1,22 @@
+table { 
+   border: 1px;
+ margin-left:35px;
+ margin-right:35px;
+    width: 95%;
+    border-collapse: separate;
+    border-spacing: 1px;
+ }
+ 
+ .padded {
+    margin: 20px;
+}
+  
+  button {
+    margin: 20px;
+    float: right;
+  }
+
+  
+  
+ 
+  
